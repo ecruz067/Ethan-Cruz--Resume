@@ -1,0 +1,1536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P2W7HS');</script>
+<!-- End Google Tag Manager -->
+
+<meta charset="UTF-8">
+
+<title>Discover the 7 Visual Building Blocks to the Elements of Art</title>
+
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/assets/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- French Site Verification -->
+<meta name="google-site-verification" content="fq_aNUM2h8CCEFz8IEoEnPvHU-7VKZDvbNg1yHqU3oQ" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"f62e7759ab",applicationID:"182191796"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1211.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+<meta name="robots" content="max-image-preview:standard">
+
+<link rel="stylesheet" href="/assets/fonts/fontawesome-5.5.0/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/main.css?id=8944e5b851b0cf49d5e0" type="text/css" media="all">
+<link rel="stylesheet" href="/assets/css/extras.min.css">
+
+<script src="/assets/js/vendor/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/vendor/slick.min.js" type="text/javascript"></script>
+<script src="/assets/js/bootstrap-select.min.js" type="text/javascript"></script>
+<script src="/assets/js/swiper.min.js"></script>
+<script src="/assets/js/jquery-match-height-master/dist/jquery.matchHeight-min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="/assets/js/vendor/html5shiv.js"></script>
+<script src="/assets/js/vendor/respond.js"></script>
+<![endif]-->
+
+
+
+
+<script>
+    window.should_disable_adds = false;
+    var name = "wp-user-has-logged-in=";
+    var ca = document.cookie.split(';');
+
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1);
+        if (c.indexOf(name) === 0 && c.substring(name.length, c.length)) {
+            window.should_disable_adds = true;
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        if(window.should_disable_adds) {
+            document.body.classList.add("adthrive-disable-all");
+        }
+    });
+</script>
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="alternate" hreflang="en" href="https://mymodernmet.com/elements-of-art-visual-culture/" />
+<link rel="alternate" hreflang="es" href="https://mymodernmet.com/es/elementos-artes-visuales/" />
+<link rel="alternate" hreflang="fr" href="https://mymodernmet.com/fr/elements-art-visuel/" />
+
+<script>
+(function(w, d) {
+	w.adthrive = w.adthrive || {};
+	w.adthrive.cmd = w.adthrive.cmd || [];
+	w.adthrive.plugin = 'adthrive-ads-1.1.2';
+	w.adthrive.host = 'ads.adthrive.com';
+
+	var s = d.createElement('script');
+	s.async = true;
+	s.referrerpolicy='no-referrer-when-downgrade';
+	s.src = 'https://' + w.adthrive.host + '/sites/58acab12aa5ec91288e8b076/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + (window.adthriveCLS && window.adthriveCLS.bucket !== 'prod' && window.adthriveCLS.branch ? '&commit=' + window.adthriveCLS.branch : '') + '&cb=' + (Math.floor(Math.random() * 100) + 1);
+	var n = d.getElementsByTagName('script')[0];
+	n.parentNode.insertBefore(s, n);
+})(window, document);
+</script>
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v16.6 (Yoast SEO v17.3) - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="What are the elements of art? Explore the visual building blocks of color, form, line, space, shape, texture and value." />
+	<link rel="canonical" href="https://mymodernmet.com/elements-of-art-visual-culture/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="How the 7 Elements of Art Shape Creativity" />
+	<meta property="og:description" content="Learn more about the 7 elements of art and how they all work together." />
+	<meta property="og:url" content="https://mymodernmet.com/elements-of-art-visual-culture/" />
+	<meta property="og:site_name" content="My Modern Met" />
+	<meta property="article:publisher" content="https://www.facebook.com/mymodernmet" />
+	<meta property="article:published_time" content="2021-06-29T01:20:22+00:00" />
+	<meta property="article:modified_time" content="2021-07-02T14:18:01+00:00" />
+	<meta property="og:image" content="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="628" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="How the 7 Elements of Art Shape Creativity" />
+	<meta name="twitter:description" content="Learn more about the 7 elements of art and how they all work together." />
+	<meta name="twitter:image" content="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg" />
+	<meta name="twitter:creator" content="@romephotoblog" />
+	<meta name="twitter:site" content="@mymodernmet" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Jessica Stewart" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="8 minutes" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://mymodernmet.com/#organization","name":"My Modern Met","url":"https://mymodernmet.com/","sameAs":["https://www.facebook.com/mymodernmet","https://www.instagram.com/mymodernmet/","https://www.linkedin.com/company/3811009?trk=tyah&amp;amp;trkInfo=clickedVertical:company,clickedEntityId:3811009,idx:2-1-2,tarId:1484473853378,tas:my modern","https://www.youtube.com/channel/UCmiC4DC-xa6rqVJeNiRWDcQ","https://www.pinterest.com/mymodernmet/","https://twitter.com/mymodernmet"],"logo":{"@type":"ImageObject","@id":"https://mymodernmet.com/#logo","inLanguage":"en-US","url":"https://mymodernmet.com/wp/wp-content/uploads/2016/12/tumblr-logo.jpg","contentUrl":"https://mymodernmet.com/wp/wp-content/uploads/2016/12/tumblr-logo.jpg","width":600,"height":600,"caption":"My Modern Met"},"image":{"@id":"https://mymodernmet.com/#logo"}},{"@type":"WebSite","@id":"https://mymodernmet.com/#website","url":"https://mymodernmet.com/","name":"My Modern Met","description":"The Big City That Celebrates Creative Ideas","publisher":{"@id":"https://mymodernmet.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://mymodernmet.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://mymodernmet.com/elements-of-art-visual-culture/#primaryimage","inLanguage":"en-US","url":"https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg","contentUrl":"https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-thumbnail-1.jpg","width":1200,"height":628,"caption":"Close Up of Paintbrushes"},{"@type":"WebPage","@id":"https://mymodernmet.com/elements-of-art-visual-culture/#webpage","url":"https://mymodernmet.com/elements-of-art-visual-culture/","name":"Discover the 7 Visual Building Blocks to the Elements of Art","isPartOf":{"@id":"https://mymodernmet.com/#website"},"primaryImageOfPage":{"@id":"https://mymodernmet.com/elements-of-art-visual-culture/#primaryimage"},"datePublished":"2021-06-29T01:20:22+00:00","dateModified":"2021-07-02T14:18:01+00:00","description":"What are the elements of art? Explore the visual building blocks of color, form, line, space, shape, texture and value.","breadcrumb":{"@id":"https://mymodernmet.com/elements-of-art-visual-culture/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://mymodernmet.com/elements-of-art-visual-culture/"]}]},{"@type":"BreadcrumbList","@id":"https://mymodernmet.com/elements-of-art-visual-culture/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://mymodernmet.com/"},{"@type":"ListItem","position":2,"name":"Art","item":"https://mymodernmet.com/category/art/"},{"@type":"ListItem","position":3,"name":"How the 7 Elements of Art Shape Creativity"}]},{"@type":["Article","NewsArticle"],"@id":"https://mymodernmet.com/elements-of-art-visual-culture/#article","isPartOf":{"@id":"https://mymodernmet.com/elements-of-art-visual-culture/#webpage"},"author":{"@id":"https://mymodernmet.com/#/schema/person/47ea2b3b5d3b2732db6dd4398904c9b2"},"headline":"How the 7 Elements of Art Shape Creativity","datePublished":"2021-06-29T01:20:22+00:00","dateModified":"2021-07-02T14:18:01+00:00","mainEntityOfPage":{"@id":"https://mymodernmet.com/elements-of-art-visual-culture/#webpage"},"wordCount":1466,"publisher":{"@id":"https://mymodernmet.com/#organization"},"image":{"@id":"https://mymodernmet.com/elements-of-art-visual-culture/#primaryimage"},"thumbnailUrl":"https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg","keywords":["7 elements of art","art","elements of art","visual art","visual culture","what are the elements of art"],"articleSection":["Art"],"inLanguage":"en-US","copyrightYear":"2021","copyrightHolder":{"@id":"https://mymodernmet.com/#organization"}},{"@type":"Person","@id":"https://mymodernmet.com/#/schema/person/47ea2b3b5d3b2732db6dd4398904c9b2","name":"Jessica Stewart","image":{"@type":"ImageObject","@id":"https://mymodernmet.com/#personlogo","inLanguage":"en-US","url":"https://secure.gravatar.com/avatar/31a62c6c24bcd6637c7c271e8efc26e7?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/31a62c6c24bcd6637c7c271e8efc26e7?s=96&d=mm&r=g","caption":"Jessica Stewart"},"description":"Jessica Stewart is a Contributing Writer and Digital Media Specialist for My Modern Met, as well as a curator and art historian. Since 2020, she is also one of the co-hosts of the My Modern Met Top Artist Podcast. She earned her MA in Renaissance Studies from University College London and now lives in Rome, Italy. She cultivated expertise in street art which led to the purchase of her photographic archive by the Treccani Italian Encyclopedia in 2014. When she\u2019s not spending time with her three dogs, she also manages the studio of a successful street artist. In 2013, she authored the book 'Street Art Stories Roma' and most recently contributed to 'Crossroads: A Glimpse Into the Life of Alice Pasquini'. You can follow her adventures online at @romephotoblog.","sameAs":["https://twitter.com/romephotoblog"],"url":"https://mymodernmet.com/author/jessica/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mymodernmet.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://mymodernmet.com/wp/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-legacy-horizontal-list-0-css'  href='//mymodernmet.com/wp/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-list-horizontal/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='https://mymodernmet.com/wp/wp-content/plugins/wordpress-popular-posts/assets/css/wpp.css?ver=5.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-content/plugins/convertkit/resources/frontend/jquery.cookie.min.js?ver=1.4.0' id='jquery-cookie-js'></script>
+<script type='text/javascript' id='convertkit-js-js-extra'>
+/* <![CDATA[ */
+var ck_data = {"ajaxurl":"https:\/\/mymodernmet.com\/wp\/wp-admin\/admin-ajax.php","post_has_tag":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-content/plugins/convertkit/resources/frontend/wp-convertkit.js?ver=1.9.5.2' id='convertkit-js-js'></script>
+<script type='application/json' id='wpp-json'>
+{"sampling_active":1,"sampling_rate":500,"ajax_url":"https:\/\/mymodernmet.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts","api_url":"https:\/\/mymodernmet.com\/wp-json\/wordpress-popular-posts","ID":195790,"token":"f4f491486d","lang":0,"debug":0}
+</script>
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-content/plugins/wordpress-popular-posts/assets/js/wpp.min.js?ver=5.4.2' id='wpp-js-js'></script>
+<link rel="https://api.w.org/" href="https://mymodernmet.com/wp-json/" /><link rel="alternate" type="application/json" href="https://mymodernmet.com/wp-json/wp/v2/posts/195790" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mymodernmet.com/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mymodernmet.com/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.8.1" />
+<link rel='shortlink' href='https://mymodernmet.com/?p=195790' />
+<link rel="alternate" type="application/json+oembed" href="https://mymodernmet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmymodernmet.com%2Felements-of-art-visual-culture%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://mymodernmet.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmymodernmet.com%2Felements-of-art-visual-culture%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.4.12 stt:1,4,2;" />
+<script type="text/javascript">
+  window.MemberfulOptions = {
+    site: "https:\/\/mymodernmet.memberful.com",
+    memberSignedIn: false  };
+
+  (function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = 'https://d35xxde4fgg0cx.cloudfront.net/assets/embedded.js';
+
+    setup = function() { window.MemberfulEmbedded.setup(); };
+
+    s.addEventListener("load", setup, false);
+
+    ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+  })();
+</script>
+        <style>
+            @-webkit-keyframes bgslide {
+                from {
+                    background-position-x: 0;
+                }
+                to {
+                    background-position-x: -200%;
+                }
+            }
+
+            @keyframes bgslide {
+                    from {
+                        background-position-x: 0;
+                    }
+                    to {
+                        background-position-x: -200%;
+                    }
+            }
+
+            .wpp-widget-placeholder {
+                margin: 0 auto;
+                width: 60px;
+                height: 3px;
+                background: #dd3737;
+                background: -webkit-gradient(linear, left top, right top, from(#dd3737), color-stop(10%, #571313), to(#dd3737));
+                background: linear-gradient(90deg, #dd3737 0%, #571313 10%, #dd3737 100%);
+                background-size: 200% auto;
+                border-radius: 3px;
+                -webkit-animation: bgslide 1s infinite linear;
+                animation: bgslide 1s infinite linear;
+            }
+        </style>
+              <meta name="onesignal" content="wordpress-plugin"/>
+            <script>
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = "OneSignalSDKUpdaterWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PATH = "OneSignalSDKWorker.js.php";
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: "/" };
+        OneSignal.setDefaultNotificationUrl("https://mymodernmet.com/wp");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '50f1184f-9d5b-428c-a3d9-7fca86d8f14b';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "My Modern Met";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://mymodernmet.com/wp/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.20000090-ae08-4d2f-988d-291912c8a9bf";
+oneSignal_options['promptOptions'] = { };
+                OneSignal.init(window._oneSignalInitOptions);
+                OneSignal.showSlidedownPrompt();      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+<link rel="icon" href="https://mymodernmet.com/wp/wp-content/uploads/2021/06/cropped-My-Modern-Met-Favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://mymodernmet.com/wp/wp-content/uploads/2021/06/cropped-My-Modern-Met-Favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://mymodernmet.com/wp/wp-content/uploads/2021/06/cropped-My-Modern-Met-Favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://mymodernmet.com/wp/wp-content/uploads/2021/06/cropped-My-Modern-Met-Favicon-1-270x270.png" />
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '438929739853889');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" src="https://www.facebook.com/tr?id=438929739853889&ev=PageView &noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+<body class="post-template-default single single-post postid-195790 single-format-standard post-elements-of-art-visual-culture">
+<div id="fb-root"></div>
+
+<input type="hidden" id="testing-url-check" value="/elements-of-art-visual-culture/">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2W7HS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="top" class="top"></div>
+
+<section class="header-ad desktop-ad">
+    </section>
+
+<style>
+    .adthrive-device-phone .adthrive-comscore {
+        margin-bottom: 10px !important;
+    }
+    .adthrive-device-desktop .adthrive-comscore, .adthrive-device-tablet .adthrive-comscore {
+        margin-bottom: 20px !important;
+    }
+</style>
+
+
+<div class="wrapper">
+
+	
+<!--Header-->
+<header class="site-header "><!-- id="navbar-main" -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Static navbar -->
+            <nav id="navbar-main"  class="navbar navbar-default">
+
+                <div class="nav-container">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button>
+
+                        <div class="logo-area">
+                                                            <a href="https://mymodernmet.com" id="logo" class=""></a>
+                                                    </div>
+
+                    </div>
+
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <div id="mobile-nav" class="navbar-right">
+                            <ul class="nav navbar-nav">
+
+                                <li>
+                                    <div class="search">
+                                        <form method="get" class="nav-search" action="https://mymodernmet.com">
+                                            <input type="hidden" name="lang" value="en"/>
+                                            <div class="form-group">
+                                                <input type="text" id="search-text" class="form-control" placeholder="Search" value="" name="s" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+
+                                                                    <li class="single">
+                                        <a href="/popular-posts" role="button">Popular</a>
+                                    </li>
+                                
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        Categories<span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li id="menu-item-56" class="single menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-56"><a href="https://mymodernmet.com/category/art/">Art</a></li>
+<li id="menu-item-57" class="single menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57"><a href="https://mymodernmet.com/category/design/">Design</a></li>
+<li id="menu-item-40101" class="single menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40101"><a href="https://mymodernmet.com/category/photography/">Photography</a></li>
+<li id="menu-item-77030" class="single red-highlight desktop-link-only menu-item menu-item-type-custom menu-item-object-custom menu-item-77030"><a target="_blank" rel="noopener" href="https://mymodernmet.store/">Store</a></li>
+                                        <li id="menu-item-43247" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43247"><a href="https://mymodernmet.com/category/architecture/">Architecture</a></li>
+<li id="menu-item-66" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66"><a href="https://mymodernmet.com/category/science/">Science</a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-67"><a href="https://mymodernmet.com/category/technology/">Technology</a></li>
+<li id="menu-item-58838" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58838"><a href="https://mymodernmet.com/category/history/">History</a></li>
+<li id="menu-item-62" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62"><a href="https://mymodernmet.com/category/environment/">Environment</a></li>
+<li id="menu-item-58600" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58600"><a href="https://mymodernmet.com/category/nature/">Nature</a></li>
+<li id="menu-item-80045" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80045"><a href="https://mymodernmet.com/category/career/">Career</a></li>
+<li id="menu-item-98597" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98597"><a href="https://mymodernmet.com/category/resources/">Resources</a></li>
+<li id="menu-item-98598" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98598"><a href="https://mymodernmet.com/category/classes/">Classes</a></li>
+<li id="menu-item-61" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61"><a href="https://mymodernmet.com/category/diy/">DIY</a></li>
+<li id="menu-item-140381" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140381"><a href="https://mymodernmet.com/category/interview/">Interview</a></li>
+<li id="menu-item-41617" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41617"><a href="https://mymodernmet.com/category/travel/">Travel</a></li>
+<li id="menu-item-98607" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98607"><a href="https://mymodernmet.com/category/entertainment/">Entertainment</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        About Us<span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://mymodernmet.com/about/">About</a></li>
+<li id="menu-item-53802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53802"><a href="https://mymodernmet.com/team/">Team</a></li>
+<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://mymodernmet.com/submit-content/">Submit Content</a></li>
+<li id="menu-item-80018" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80018"><a href="https://mymodernmet.com/contact/">Contact</a></li>
+<li id="menu-item-138737" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138737"><a target="_blank" rel="noopener" href="https://mymodernmet.media/">Advertise</a></li>
+<li id="menu-item-80015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80015"><a href="https://mymodernmet.com/affiliate-disclosure/">Affiliate Disclosure</a></li>
+<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://mymodernmet.com/privacy-policy/">Privacy</a></li>
+<li id="menu-item-41644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41644"><a href="https://mymodernmet.com/terms-conditions/">Terms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="single red-highlight">
+                                    <a href="https://mymodernmet.com/my-modern-met-membership" role="button" style="color: #b80b30 !important;">Membership</a>
+                                </li>
+
+                                <li class="single red-highlight">
+                                    <a href="https://store.mymodernmet.com" target="_blank" role="button" style="color: #b80b30 !important;">Store</a>
+                                </li>
+
+                                <li class="wpml-language-picker-mobile ">
+                                    
+<div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://mymodernmet.com/elements-of-art-visual-culture/" class="wpml-ls-link">
+                                                        <img
+            class="wpml-ls-flag"
+            src="https://mymodernmet.com/wp/wp-content/uploads/flags/usa-flag.jpg"
+            alt=""
+            width=18
+            height=12
+    /><span class="wpml-ls-native">English</span></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-item-legacy-list-horizontal">
+				<a href="https://mymodernmet.com/es/elementos-artes-visuales/" class="wpml-ls-link">
+                                                        <img
+            class="wpml-ls-flag"
+            src="https://mymodernmet.com/wp/wp-content/uploads/flags/spanish-flag.jpg"
+            alt=""
+            width=18
+            height=12
+    /><span class="wpml-ls-native" lang="es">Español</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Spanish<span class="wpml-ls-bracket">)</span></span></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://mymodernmet.com/fr/elements-art-visuel/" class="wpml-ls-link">
+                                                        <img
+            class="wpml-ls-flag"
+            src="https://mymodernmet.com/wp/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+            alt=""
+            width=18
+            height=12
+    /><span class="wpml-ls-native" lang="fr">Français</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>French<span class="wpml-ls-bracket">)</span></span></a>
+			</li></ul>
+</div>
+                                </li>
+
+                                <li class="dropdown social-items">
+
+                                    <a href="#" class="dropdown-toggle social" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="ss-icon ss-social ss-facebook"></span>
+                                        <span class="ss-icon ss-social ss-twitter"></span>
+                                        <span class="ss-icon ss-social ss-pinterest"></span>
+                                        <span class="caret"></span>
+                                    </a>
+
+                                    
+<ul class="dropdown-menu social-menu">
+
+    
+        <li class="social social-list">
+            <div class="fb-like" data-href="https://www.facebook.com/mymodernmet" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+        </li>
+        <li class="social social-list">
+            <a href="https://twitter.com/mymodernmet" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @mymodernmet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </li>
+                <li class="social social-list instagram">
+            <a href="https://www.instagram.com/mymodernmet/" class="instagram-a-tag" target="_blank" rel="noreferrer nofollow">
+                <span><i class="fa fa-instagram"></i></span> Follow            </a>
+        </li>
+
+        <li class="social social-list pinterest">
+            <a data-pin-do="buttonFollow" href="https://www.pinterest.com/mymodernmet/">Pinterest</a>
+        </li>
+
+        <li class="social social-list youtube">
+            <script src="https://apis.google.com/js/platform.js"></script>
+            <div class="g-ytsubscribe" data-channelid="UCYwwiIEeYgBr5IfPedBQF1g" data-layout="default" data-count="hidden"></div>
+        </li>
+
+        <li class="social social-list">
+            <iframe  frameborder="0" border="0" scrolling="no" allowtransparency="true" height="20" width="65" src="https://platform.tumblr.com/v2/follow_button.html?type=follow&amp;tumblelog=mymodernmet&amp;color=blue"></iframe>
+        </li>
+
+<!--                                            <li class="social social-list">-->
+<!--                                                <div class="g-follow" data-annotation="none" data-href="https://plus.google.com/118231159093825009850" data-rel="publisher"></div>-->
+<!--                                            </li>-->
+
+        <li class="social social-list feedly">
+            <a href="http://feedly.com/i/subscription/feed/http://mmm.electricpulp.com/feed/" target="blank"><img id="feedlyFollow" src="https://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png" alt="follow us in feedly" width="71" height="28"></a>
+        </li>
+
+        <li class="social social-list subscribe" style="width: auto;">
+            <a href="https://mymodernmet.com/newsletter-signup/" class="btn" style="padding-left: 10px; padding-right: 10px;"><span class="ss-icon ss-mail"></span>Subscribe</a>
+        </li>
+
+    
+</ul>
+                                </li>
+
+                                <li class="newsletter-signup">
+                                    <a href="https://mymodernmet.com/newsletter-signup/">Get Our Weekly Newsletter</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div id="desktop-nav" class="navbar-right">
+
+                            <ul class="nav navbar-nav">
+                                                                    <li class="dropdown popular-dropdown-parent-button">
+
+                                        <a href="#" class="dropdown-toggle popular-mobile" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Popular <span class="caret"></span></a>
+
+                                        <ul class="dropdown-menu full-width popular-posts-dropdown">
+                                            <div class="caret-top"></div>
+                                            <!-- TODO: Popular posts update -->
+                                                <li class="dropdown-header">Popular Posts</li>
+                                                <li class="dropdown-header button"><a href="https://mymodernmet.com/popular-posts/" class="btn btn-default">View All</a></li>
+                                            
+                                                                                                                                                    <li>
+
+                                                                                                                            <div class="image">
+                                                                    <a href="https://mymodernmet.com/cat-zen-garden/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/zen-garden-cats-thumb-large.jpg"></a>
+                                                                </div>
+                                                                                                                    <!--
+                                                                                                                                   <a href="https://mymodernmet.com/cat-zen-garden/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/zen-garden-cats-thumb-large.jpg" class="popular-image"></a>
+                                                                                                                                -->
+
+                                                            <div class="text"><a href="https://mymodernmet.com/cat-zen-garden/">Woman Turns Her Chilled Out Cat Into a Zen Garden</a></div>
+
+                                                            <div class="clear"></div>
+                                                    </li>
+                                                                                                    
+                                            
+                                                                                                                                                    <li>
+
+                                                                                                                            <div class="image">
+                                                                    <a href="https://mymodernmet.com/tetris-challenge-ognyan-stefanov/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/ognyan-stefanov-plane-tetris-challenge-thumb-large.jpg"></a>
+                                                                </div>
+                                                                                                                    <!--
+                                                                                                                                   <a href="https://mymodernmet.com/tetris-challenge-ognyan-stefanov/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/ognyan-stefanov-plane-tetris-challenge-thumb-large.jpg" class="popular-image"></a>
+                                                                                                                                -->
+
+                                                            <div class="text"><a href="https://mymodernmet.com/tetris-challenge-ognyan-stefanov/">Air Force Photographer Captures Neatly Organized Fighter Jets and Weapons From Above</a></div>
+
+                                                            <div class="clear"></div>
+                                                    </li>
+                                                                                                    
+                                            
+                                                                                                                                                    <li>
+
+                                                                                                                            <div class="image">
+                                                                    <a href="https://mymodernmet.com/2020-paralympic-games-handoff-ceremony/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/sadeck-waff-paralympic-games-feat-big.gif"></a>
+                                                                </div>
+                                                                                                                    <!--
+                                                                                                                                   <a href="https://mymodernmet.com/2020-paralympic-games-handoff-ceremony/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/sadeck-waff-paralympic-games-feat-big.gif" class="popular-image"></a>
+                                                                                                                                -->
+
+                                                            <div class="text"><a href="https://mymodernmet.com/2020-paralympic-games-handoff-ceremony/">Watch a Mesmerizing Hand Ballet Performed for the 2020 Paralympics Hand Off Ceremony</a></div>
+
+                                                            <div class="clear"></div>
+                                                    </li>
+                                                                                                    
+                                            
+                                                                                                                                                    <li>
+
+                                                                                                                            <div class="image">
+                                                                    <a href="https://mymodernmet.com/ibor-edosa-victor-behind-scenes-photos/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/ibor-edosa-victor-sneak-peek-photos-feat-big.jpg"></a>
+                                                                </div>
+                                                                                                                    <!--
+                                                                                                                                   <a href="https://mymodernmet.com/ibor-edosa-victor-behind-scenes-photos/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/ibor-edosa-victor-sneak-peek-photos-feat-big.jpg" class="popular-image"></a>
+                                                                                                                                -->
+
+                                                            <div class="text"><a href="https://mymodernmet.com/ibor-edosa-victor-behind-scenes-photos/">Photographer Shares Behind-the-Scenes Peek at How His Magical Photos Begin</a></div>
+
+                                                            <div class="clear"></div>
+                                                    </li>
+                                                                                                    
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                                                                                
+                                            
+                                            <div class="clear"></div>
+
+                                        </ul>
+                                    </li>
+                                
+                                <li class="single menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-56"><a href="https://mymodernmet.com/category/art/">Art</a></li>
+<li class="single menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57"><a href="https://mymodernmet.com/category/design/">Design</a></li>
+<li class="single menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40101"><a href="https://mymodernmet.com/category/photography/">Photography</a></li>
+<li class="single red-highlight desktop-link-only menu-item menu-item-type-custom menu-item-object-custom menu-item-77030"><a target="_blank" rel="noopener" href="https://mymodernmet.store/">Store</a></li>
+
+                                <li class="dropdown">
+
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="more-topics">More Topics <span class="caret"></span></span>
+                                        <span class="all-topics">All Topics <span class="caret"></span></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu more">
+                                        <div class="caret-top"></div>
+                                        <li class="dropdown-header">More Topics</li>
+
+                                        <li class="single menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-56"><a href="https://mymodernmet.com/category/art/">Art</a></li>
+<li class="single menu-item menu-item-type-taxonomy menu-item-object-category menu-item-57"><a href="https://mymodernmet.com/category/design/">Design</a></li>
+<li class="single menu-item menu-item-type-taxonomy menu-item-object-category menu-item-40101"><a href="https://mymodernmet.com/category/photography/">Photography</a></li>
+<li class="single red-highlight desktop-link-only menu-item menu-item-type-custom menu-item-object-custom menu-item-77030"><a target="_blank" rel="noopener" href="https://mymodernmet.store/">Store</a></li>
+                                        <li class="nav-divider"></li>
+                                        <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43247"><a href="https://mymodernmet.com/category/architecture/">Architecture</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-66"><a href="https://mymodernmet.com/category/science/">Science</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-67"><a href="https://mymodernmet.com/category/technology/">Technology</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58838"><a href="https://mymodernmet.com/category/history/">History</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-62"><a href="https://mymodernmet.com/category/environment/">Environment</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-58600"><a href="https://mymodernmet.com/category/nature/">Nature</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80045"><a href="https://mymodernmet.com/category/career/">Career</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98597"><a href="https://mymodernmet.com/category/resources/">Resources</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98598"><a href="https://mymodernmet.com/category/classes/">Classes</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-61"><a href="https://mymodernmet.com/category/diy/">DIY</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-140381"><a href="https://mymodernmet.com/category/interview/">Interview</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41617"><a href="https://mymodernmet.com/category/travel/">Travel</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98607"><a href="https://mymodernmet.com/category/entertainment/">Entertainment</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown language-picker-dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        English <span class="caret"></span>
+                                    </a>
+
+                                    <ul class="dropdown-menu more">
+                                        <div class="caret-top"></div>
+                                        
+<div class="wpml-ls-statics-shortcode_actions wpml-ls wpml-ls-legacy-list-horizontal">
+	<ul><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://mymodernmet.com/elements-of-art-visual-culture/" class="wpml-ls-link">
+                                                        <img
+            class="wpml-ls-flag"
+            src="https://mymodernmet.com/wp/wp-content/uploads/flags/usa-flag.jpg"
+            alt=""
+            width=18
+            height=12
+    /><span class="wpml-ls-native">English</span></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-es wpml-ls-item-legacy-list-horizontal">
+				<a href="https://mymodernmet.com/es/elementos-artes-visuales/" class="wpml-ls-link">
+                                                        <img
+            class="wpml-ls-flag"
+            src="https://mymodernmet.com/wp/wp-content/uploads/flags/spanish-flag.jpg"
+            alt=""
+            width=18
+            height=12
+    /><span class="wpml-ls-native" lang="es">Español</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>Spanish<span class="wpml-ls-bracket">)</span></span></a>
+			</li><li class="wpml-ls-slot-shortcode_actions wpml-ls-item wpml-ls-item-fr wpml-ls-last-item wpml-ls-item-legacy-list-horizontal">
+				<a href="https://mymodernmet.com/fr/elements-art-visuel/" class="wpml-ls-link">
+                                                        <img
+            class="wpml-ls-flag"
+            src="https://mymodernmet.com/wp/wp-content/plugins/sitepress-multilingual-cms/res/flags/fr.png"
+            alt=""
+            width=18
+            height=12
+    /><span class="wpml-ls-native" lang="fr">Français</span><span class="wpml-ls-display"><span class="wpml-ls-bracket"> (</span>French<span class="wpml-ls-bracket">)</span></span></a>
+			</li></ul>
+</div>
+                                    </ul>
+                                </li>
+
+                                <li class="search-item">
+                                    <div class="search">
+                                        <form method="get" class="nav-search" action="https://mymodernmet.com">
+                                            <div class="form-group">
+                                                <input type="text" id="search-text" class="form-control" placeholder="Search" value="" name="s" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </li>
+
+                                <li class="membership-link red-highlight">
+                                    <a href="https://mymodernmet.com/my-modern-met-membership">Membership</a>
+                                </li>
+
+                                <li class="dropdown social-items" style="display: none;">
+
+                                    <a href="#" class="dropdown-toggle social" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="ss-icon ss-social ss-facebook"></span>
+                                        <span class="ss-icon ss-social ss-twitter"></span>
+                                        <span class="ss-icon ss-social ss-pinterest"></span>
+                                                                                <span class="caret"></span>
+                                    </a>
+
+                                    
+<ul class="dropdown-menu social-menu">
+
+    
+        <li class="social social-list">
+            <div class="fb-like" data-href="https://www.facebook.com/mymodernmet" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
+        </li>
+        <li class="social social-list">
+            <a href="https://twitter.com/mymodernmet" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @mymodernmet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </li>
+                <li class="social social-list instagram">
+            <a href="https://www.instagram.com/mymodernmet/" class="instagram-a-tag" target="_blank" rel="noreferrer nofollow">
+                <span><i class="fa fa-instagram"></i></span> Follow            </a>
+        </li>
+
+        <li class="social social-list pinterest">
+            <a data-pin-do="buttonFollow" href="https://www.pinterest.com/mymodernmet/">Pinterest</a>
+        </li>
+
+        <li class="social social-list youtube">
+            <script src="https://apis.google.com/js/platform.js"></script>
+            <div class="g-ytsubscribe" data-channelid="UCYwwiIEeYgBr5IfPedBQF1g" data-layout="default" data-count="hidden"></div>
+        </li>
+
+        <li class="social social-list">
+            <iframe  frameborder="0" border="0" scrolling="no" allowtransparency="true" height="20" width="65" src="https://platform.tumblr.com/v2/follow_button.html?type=follow&amp;tumblelog=mymodernmet&amp;color=blue"></iframe>
+        </li>
+
+<!--                                            <li class="social social-list">-->
+<!--                                                <div class="g-follow" data-annotation="none" data-href="https://plus.google.com/118231159093825009850" data-rel="publisher"></div>-->
+<!--                                            </li>-->
+
+        <li class="social social-list feedly">
+            <a href="http://feedly.com/i/subscription/feed/http://mmm.electricpulp.com/feed/" target="blank"><img id="feedlyFollow" src="https://s3.feedly.com/img/follows/feedly-follow-rectangle-volume-medium_2x.png" alt="follow us in feedly" width="71" height="28"></a>
+        </li>
+
+        <li class="social social-list subscribe" style="width: auto;">
+            <a href="https://mymodernmet.com/newsletter-signup/" class="btn" style="padding-left: 10px; padding-right: 10px;"><span class="ss-icon ss-mail"></span>Subscribe</a>
+        </li>
+
+    
+</ul>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div><!--/.nav-collapse -->
+
+                </div>
+
+            </nav>
+
+        </div>
+    </div>
+</header>
+
+    <main role="main">
+
+    <input type="hidden" id="one-signal-category" value="art">
+
+
+    <!-- Used for line separator between header and post -->
+    <section class="title-area" style=""><div class="container"><div class="row empty-row-for-posts"></div></div></section>
+
+    <!--Section - Intro-->
+    <section class="main-content container">
+
+        <div class="row article-row">
+            <div class="col-xs-12 col-md-8">
+
+            <div class="row">
+                <div class="col-xs-12 article-heading-area">
+
+                    <div class="category-label ">
+
+                        <span><a href="https://mymodernmet.com/">Home</a></span>
+
+                        <span> / </span>
+
+                        
+                                                    <span><a href="https://mymodernmet.com/category/art/">Art</a></span>
+                        
+                    </div>
+
+                    <!-- Article Title -->
+                    <h1>How the 7 Elements of Art Shape Creativity</h1>
+
+                    <!-- Article Author -->
+                    <div class="article-author-line">
+
+                        
+                                                            By <a href="/author/jessica">Jessica Stewart</a> on June 28, 2021                            
+                        
+                    </div>
+
+                    <!-- Article Sharing Options -->
+                    <div class="article-share-container">
+                        <ul>
+                            <li>
+                                <a class="facebook-share" href="#share-on-facebook" onclick="window.open(
+                                    'http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmymodernmet.com%2Felements-of-art-visual-culture%2F','facebook-share-dialog','width=626,height=436'
+                                ); return false;"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a class="pinterest-share" href="#share-on-pinterest" onclick="window.open(
+                                    'https://pinterest.com/pin/create/bookmarklet/?url=https://mymodernmet.com/elements-of-art-visual-culture/&description=How the 7 Elements of Art Shape Creativity&media=https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-square.jpg','pinterest-share-dialog','width=626,height=436'
+                                ); return false;"><i class="fab fa-pinterest-p"></i></a>
+                            </li>
+                            <li>
+                                <a class="twitter-share" href="#share-on-twitter" onclick="window.open(
+                                    'https://twitter.com/intent/tweet?url=https://mymodernmet.com/elements-of-art-visual-culture/&text=How the 7 Elements of Art Shape Creativity&via=mymodernmet','twitter-share-dialog','width=626,height=436'
+                                ); return false;"><i class="fab fa-twitter"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <!--Main Content-->
+                <div class="section-intro col-sm-12">
+
+                    <!--Article-->
+                    <article class="first-page article ">
+                        <div id="attachment_196117" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-196117" loading="lazy" class="size-full wp-image-196117" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg" alt="What are the 7 Elements of Art?" width="750" height="500" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-6-300x200.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-196117" class="wp-caption-text"><a href="https://www.shutterstock.com/photos" target="_blank" rel="noopener noreferrer">Stock Photos</a> from Yuriy Golub/Shutterstock</p></div>
+<p>In order to understand any field, it's important to have a solid foundation from which to grow. For visual art, this means understanding the <strong>elements of art</strong>. These creative building blocks are essential and having a grasp on how they work is important both for artists and for lovers of art. By gaining a deeper understanding of the elements of art, it's easier to analyze, unravel, and create any type of artwork from painting and photography to sculpture and architecture.</p><div class="desktop-blog-ad desktop-ad"></div>
+<p>In fact, many of these elements are taught to schoolchildren as part of basic art&nbsp;education. But while the concepts may seem simple, once mastered they can stretch and grow in all directions, no&nbsp;matter what <a href="https://mymodernmet.com/important-art-movements/" target="_blank" rel="noopener noreferrer">style of art</a> is being created or appreciated. The elements of art are concrete visual components that work in tandem with principals of art that organize and harmonize them.</p>
+<p>Line, color, shape, form, value, space, and texture are the seven core elements of art and they often overlap and inform one another. Whether talking about drawing, painting, sculpture, or design, these components of art all need to be taken into consideration. Once you have a handle on these seven visual elements, it's even easier to create your own art.</p>
+<p>But you don't need to be an artist yourself to find the elements of art useful. Any art lover will be able to view artwork in a more meaningful way by learning more about these core visual components.</p>
+<p>&nbsp;
+</p>
+<h2>What are the seven elements of art?</h2>
+<p>&nbsp;</p><div class="desktop-blog-ad desktop-ad"></div>
+<h3><strong>Line</strong></h3>
+<div id="attachment_196108" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-196108" loading="lazy" class="size-full wp-image-196108" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-2.jpg" alt="What Are the 7 Elements of Art?" width="750" height="323" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-2.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-2-300x129.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-196108" class="wp-caption-text"><a href="https://www.shutterstock.com/photos" target="_blank" rel="noopener noreferrer">Stock Photos</a> from Rabbit Run 11/Shutterstock</p></div>
+<p>These marks span a distance between two points and can be straight or curved. In visual art, lines don't only need to be made with marks and outlines. They can also be implied or abstract. Whether two-dimensional or three-dimensional, there's no denying that lines have a huge impact on the rest of the elements of art. They can be used to create shape and form, as well as give a sense of depth and structure. Lines are the foundation of drawing and are a powerful tool unto themselves. Using different types of lines&mdash;continuous, broken, vertical, jagged, horizontal&mdash;drastically changes the psychology&nbsp;of an artwork, impacting the viewer greatly.</p>
+<p>Throughout art history, artists have used the line as a principle means of visual expression. Want to know more? <a href="https://mymodernmet.com/line-art-history/" target="_blank" rel="noopener">Discover the long history of line art</a>.</p>
+<p>&nbsp;</p>
+<h3><strong>Color</strong></h3>
+<div id="attachment_194377" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-194377" loading="lazy" class="size-full wp-image-194377" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/famous-flower-paintings-11.jpg" alt="What are the 7 Elements of Art?" width="750" height="930" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/famous-flower-paintings-11.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/famous-flower-paintings-11-242x300.jpg 242w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-194377" class="wp-caption-text">&#8220;Still Life with Irises&#8221; by Vincent <a href="https://mymodernmet.com/van-gogh" title="van Gogh" class="pretty-link-keyword"rel="">Van Gogh</a>. 1890.</p></div>
+<p>By working with hue, value, and intensity&mdash;three building blocks of colors&mdash;artists can tap into a wide range of emotions. There's nothing that changes an artwork's emotional impact more than color. Masters like <a href="https://mymodernmet.com/vincent-van-gogh-life/" target="_blank" rel="noopener noreferrer">Van Gogh</a>, <a href="https://mymodernmet.com/claude-monet-paintings/" target="_blank" rel="noopener noreferrer">Monet</a>, and <a href="https://mymodernmet.com/toulous-lautrec-posters/" target="_blank" rel="noopener noreferrer">Toulouse-Lautrec</a> all expertly manipulated color in their art to provoke different feelings. Color can be used symbolically or to create a pattern. It can be selected for contrast or to set a specific mood. A deep understanding of <a href="https://mymodernmet.com/basic-color-theory/" target="_blank" rel="noopener noreferrer">color theory</a> helps any artist&nbsp;make better use of the colors they have at their disposal.</p>
+<p>&nbsp;</p>
+<h3><strong>Shape</strong></h3>
+<div id="attachment_196111" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-196111" loading="lazy" class="size-full wp-image-196111" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-3.jpg" alt="Visual Components of Art" width="750" height="761" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-3.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-3-296x300.jpg 296w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-196111" class="wp-caption-text">&#8220;Simultaneous Counter Composition&#8221; (1930) by Theo van Doesburg (Photo: Public domain via <a href="https://www.wikiart.org/en/theo-van-doesburg/simultaneous-counter-composition-1930">WikiArt</a>)</p></div>
+<p>The result of closed lines, shapes are two-dimensional, flat, and only have height and width. Geometric shapes like circles and squares are mathematical and precise, while organic shapes take cues from nature and tend to be curved and abstract. <a href="https://mymodernmet.com/henri-matisse-modern-art/" target="_blank" rel="noopener noreferrer">Henri Matisse</a>&#8216;s collage art makes great use of organic shapes, while <a href="https://mymodernmet.com/piet-mondrian/" target="_blank" rel="noopener">Piet Mondrian</a> is known for relying on geometric shapes in his paintings. Shapes can be used to control how we perceive a composition. For instance, triangles can help draw the eye to a particular point, while circles represent continuity.</p>
+<p>&nbsp;</p>
+<h3><strong>Form&nbsp;</strong></h3>
+<div id="attachment_196113" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-196113" loading="lazy" class="size-full wp-image-196113" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-4.jpg" alt="Art Education - The Elements of Art" width="750" height="563" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-4.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-4-300x225.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-196113" class="wp-caption-text">Heydar Aliyev Center (2007-2012) by Zaha Hadid. (Photo: <a href="https://www.flickr.com/photos/infanticida/25667096538">Aleksandr Zykov</a>)</p></div>
+<p>When a shape acquires depth and becomes three-dimensional, then it takes on form. Cylinders, pyramids, and spheres are some of the more common forms, though they can also be amorphous. In sculpture, form is of the utmost importance, though it can easily be introduced into drawing and painting using&nbsp;<a href="https://mymodernmet.com/3d-drawings-anamorphic-art-sandor-vamos/" target="_blank" rel="noopener noreferrer">3D art</a> techniques. Baroque sculptor Bernini was a master of form, carving his sculptures in a way that gave enjoyment from any perspective. Form is also a big consideration in architecture, with acclaimed architects like <a href="https://mymodernmet.com/frank-lloyd-wright-architecture/" target="_blank" rel="noopener noreferrer">Frank Lloyd-Wright</a>, <a href="https://mymodernmet.com/zaha-hadid-architecture/" target="_blank" rel="noopener noreferrer">Zaha Hadid</a>, and <a href="https://mymodernmet.com/tadao-ando-architecture/" target="_blank" rel="noopener noreferrer">Tadao Ando</a> giving careful consideration to this element in their designs.</p>
+<p>&nbsp;</p>
+<h3><strong>Value</strong></h3>
+<div id="attachment_196106" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-196106" loading="lazy" class="size-full wp-image-196106" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-1.jpg" alt="7 Elements of Art" width="750" height="601" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-1.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-1-300x240.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-196106" class="wp-caption-text">&#8220;The Tetons and the Snake River&#8221; (1942) by Ansel Adams. (Photo: Public domain, <a href="https://commons.wikimedia.org/wiki/File:Adams_The_Tetons_and_the_Snake_River.jpg">via Wikimedia Commons</a>)</p></div>
+<p>Related to color, value is the lightness and darkness of a color. The lightest value is white and the darkest value is black, with the difference between them defined as the contrast. Playing with value can not only change certain forms, but also influence the mood of the artwork. Value is so important that the Italians created a term&mdash;<a href="https://mymodernmet.com/art-history-terms/" target="_blank" rel="noopener noreferrer"><em>chiaroscuro</em></a>&mdash;that specifically refers to the use of light and dark in a piece of art. <a href="https://mymodernmet.com/baroque-period/" target="_blank" rel="noopener noreferrer">Baroque</a> painter Caravaggio was a master of using&nbsp;<em>chiaroscuro&nbsp;</em>in his moody oil paintings. Photographer Ansel Adams is another example of an artist who expertly used value to his advantage by using areas of contrast to create interest in his landscape photography.</p>
+<p>&nbsp;</p>
+<h3><strong>Space&nbsp;</strong></h3>
+<div id="attachment_156192" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-156192" loading="lazy" class="size-full wp-image-156192" src="https://mymodernmet.com/wp/wp-content/uploads/2018/09/perspective-drawing-6.jpeg" alt="Atmospheric Perspective" width="750" height="1125" srcset="https://mymodernmet.com/wp/wp-content/uploads/2018/09/perspective-drawing-6.jpeg 750w, https://mymodernmet.com/wp/wp-content/uploads/2018/09/perspective-drawing-6-200x300.jpeg 200w, https://mymodernmet.com/wp/wp-content/uploads/2018/09/perspective-drawing-6-683x1024.jpeg 683w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-156192" class="wp-caption-text">(Photo: <a href="https://unsplash.com/photos/lSXpV8bDeMA" target="_blank" rel="noopener noreferrer">Guillaume Briard</a>)</p></div>
+<p>This element of art can be manipulated based on how an artist places lines, shapes, forms, and color. The placement of these other elements creates space. Space can be either positive or negative. Positive space is an area occupied by an object or form, while <a href="https://mymodernmet.com/negative-space-art/">negative space</a> is an area that runs between, through, around, or within objects. Artists often think about the foreground, middle ground, and background of their artwork, purposefully placing shapes and lines throughout the space to achieve the perfect composition. A sense of depth in two-dimensional works is often achieved by <a href="https://mymodernmet.com/perspective-drawing/" target="_blank" rel="noopener noreferrer">perspective</a>, which itself can rely on lines or colors.</p>
+<p>&nbsp;</p>
+<h3><strong>Texture</strong></h3>
+<div id="attachment_196115" style="width: 760px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-196115" loading="lazy" class="size-full wp-image-196115" src="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-5.jpg" alt="Seven Elements of Art" width="750" height="418" srcset="https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-5.jpg 750w, https://mymodernmet.com/wp/wp-content/uploads/2019/03/elements-of-art-5-300x167.jpg 300w" sizes="(max-width: 750px) 100vw, 750px" /><p id="caption-attachment-196115" class="wp-caption-text">&#8220;Pauline Bonaparte as Venus Victrix&#8221; (1805-1808) by Antonio Canova. (Photo: Public domain via <a href="https://commons.wikimedia.org/wiki/File:Paolina_Borghese_(Canova).jpg">Wikipedia</a>)</p></div>
+<p>Texture is an element of art that also plays to our sense of touch. It's defined as a description of the way something feels or looks like it would feel. Sometimes we're speaking about an actual texture that can be felt, as in the case of&nbsp;Icelandic artist&nbsp;<a href="https://mymodernmet.com/hrafnhildur-arnardottir-shoplifter-installation-art/" target="_blank" rel="noopener noreferrer">Hrafnhildur Arnard&oacute;ttir</a>, who creates&nbsp;installation&nbsp;art using synthetic hair. Other times, the texture is an implied visual texture that is two-dimensional. Smooth, rough, hard, soft, furry, fluffy, and bumpy are just some different textures that evoke different responses.</p>
+<p>For instance, an artist look for a hyperrealistic result would want clouds to appear fluffy, while another artist wishing to subvert conventions might play with texture to create a surreal experience for the viewer. 19th-century sculptor Antonio Canova was a master of this, as exemplified by his portrait of Napoleon's sister where she's resting on a cushion that seems so soft and touchable, it's hard to believe that it's marble.</p>
+<p>&nbsp;</p>
+<h2>Inspired to start using the seven elements of art? Here are some drawing lessons to help get you started.</h2>
+<ul>
+<li>Facial features are famously hard to draw: <a href="https://mymodernmet.com/how-to-draw-a-nose/" target="_blank" rel="noopener">Learn how to <strong>draw any type of human nose</strong> with a few simple steps</a>.</li>
+<li>Love fantasy art? Learn how to <strong><a href="https://mymodernmet.com/how-to-draw-a-unicorn/" target="_blank" rel="noopener">draw a unicorn</a></strong> or a <strong><a href="https://mymodernmet.com/how-to-draw-a-dragon/" target="_blank" rel="noopener">dragon</a></strong> with these easy, step-by-step instructions</li>
+<li>Eyes are the window to the soul: <a href="https://mymodernmet.com/how-to-draw-eyes/" target="_blank" rel="noopener">Learn <strong>how to draw eyes</strong> in this sketching tutorial</a>.</li>
+<li>Want to sketch your pet? <a href="https://mymodernmet.com/how-to-draw-a-dog/">Learn <strong>how to draw dogs</strong> in this step-by-step guide</a>.</li>
+<li>Fascinated by insects? <a href="https://mymodernmet.com/how-to-draw-a-butterfly/" target="_blank" rel="noopener">Learn <strong>how to draw a Monarch butterfly</strong> in five easy steps</a>.</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Want to learn more? Here are some online art classes we recommend.</h2>
+<ul>
+<li><strong>Light & Shading With Colored Pencils</strong>: Sharpen your drawing skills and create a beautiful floral compositions with this <a href="https://www.craftsy.com/class/light-shading-with-colored-pencils/#" target="_blank" rel="noopener">Craftsy course</a>.</li>
+<li><strong>Urban Sketching in 15 Minutes a Day</strong>: Incorporate sketching into your daily routine with this <a href="https://www.craftsy.com/class/urban-sketching-in-15-minutes-a-day/" target="_blank" rel="noopener">Craftsy course</a>.</li>
+<li><strong>Realistic Textures in Colored Pencil</strong>: Learn how to draw ur and feathers in lifelike detail with this <a href="https://www.craftsy.com/class/realistic-textures-in-colored-pencil/" target="_blank" rel="noopener">Craftsy course</a>.</li>
+<li><strong>Master Palettes</strong>: Explore color mixing and matching with oil paint Scott Gellatly in <a href="https://www.craftsy.com/class/master-palettes-exploring-color-mixing/" target="_blank" rel="noopener">this course</a>.</li>
+<li><strong>Learning Line</strong>: Learn how to use line drawing to reduce a subject down to its essential components in <a href="https://www.skillshare.com/classes/How-to-Draw-Learning-Line/494638039" target="_blank" rel="noopener">this course</a>.</li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="text-decoration: underline;">Related Articles</span>:</h2>
+<p><a href="https://mymodernmet.com/art-history-terms/" target="_blank" rel="noopener noreferrer">20 Art History Terms to Help You Skillfully Describe a Work of Art</a></p>
+<p><a href="https://mymodernmet.com/different-types-of-painting/" target="_blank" rel="noopener noreferrer">11 Different Types of Painting That Every Artist Should Know</a></p>
+<p><a href="https://mymodernmet.com/how-to-draw-youtube/" target="_blank" rel="noopener noreferrer">10+ YouTube Channels to Learn How to Draw for Free</a></p>
+<p><a href="https://mymodernmet.com/pastel-art/" target="_blank" rel="noopener noreferrer">Learn to Paint Without a Brush By Drawing With Pastel Sticks</a></p>
+<p><a href="https://mymodernmet.com/easy-painting-ideas/" target="_blank" rel="noopener noreferrer">50+ Painting Ideas That Will Inspire You to Pick Up a Brush Right Now</a></p>
+<p><a href="https://mymodernmet.com/watercolor-techniques/" target="_blank" rel="noopener noreferrer">10 Essential Watercolor Techniques All Painters Need to Know</a></p>
+<script async data-uid="481b7b2b26" src="https://mymodernmet.ck.page/481b7b2b26/index.js"></script></p>                    </article>
+
+                    
+                </div>
+
+            </div>
+
+                            <footer class="row author-bio">
+                    <div class="author-image">
+                        <img alt='' src='https://secure.gravatar.com/avatar/31a62c6c24bcd6637c7c271e8efc26e7?s=100&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/31a62c6c24bcd6637c7c271e8efc26e7?s=200&#038;d=mm&#038;r=g 2x' class='avatar avatar-100 photo' height='100' width='100' loading='lazy'/>                    </div>
+                    <div class="author-description">
+                        <h3>Jessica Stewart</h3>
+                        <div class="author-description-contents">
+                            Jessica Stewart is a Contributing Writer and Digital Media Specialist for My Modern Met, as well as a curator and art historian. Since 2020, she is also one of the co-hosts of the My Modern Met <a href="https://podcast.mymodernmet.com/">Top Artist Podcast</a>. She earned her MA in Renaissance Studies from University College London and now lives in Rome, Italy. She cultivated expertise in street art which led to the purchase of her photographic archive by the Treccani Italian Encyclopedia in 2014. When she’s not spending time with her three dogs, she also manages the studio of a successful street artist. In 2013, she authored the book '<a href="https://books.google.it/books/about/Street_art_stories_Roma.html?id=q5vNlwEACAAJ&amp;redir_esc=y">Street Art Stories Roma</a>' and most recently contributed to '<a href="https://amzn.to/37Vn1Lw">Crossroads: A Glimpse Into the Life of Alice Pasquini</a>'. You can follow her adventures online at <a href="https://www.instagram.com/romephotoblog/">@romephotoblog</a>.                        </div>
+                        <div class="author-links">
+                            <a href="https://mymodernmet.com/author/jessica/">
+                                Read all posts from Jessica Stewart                            </a>
+                        </div>
+                    </div>
+                </footer>
+            
+            <div class="row like-it-share-it">
+                <div class="col-xs-12">
+                                            Want to learn more about art?                    
+                    <a class="facebook-share-button" href="#share-on-facebook" onclick="window.open(
+                        'http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmymodernmet.com%2Felements-of-art-visual-culture%2F','facebook-share-dialog','width=626,height=436'
+                    ); return false;"><i class="fab fa-facebook-square"></i> Share</a>
+                </div>
+            </div>
+
+            <div class="row like-newsletter">
+                <div class="col-xs-12 col-sm-6 left">
+                    Like My Modern Met on Facebook
+                    
+                        <div class="fb-like" data-href="https://www.facebook.com/mymodernmet/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+
+                                    </div>
+                <div class="col-xs-12 col-sm-6 right">
+                    <a href="https://mymodernmet.com/newsletter-signup/" class="anchor-links"><span class="ss-icon ss-mail"></span> Get Our Weekly Newsletter</a>
+                </div>
+            </div>
+
+                            <div class="memberful-post-container">
+                    <div class="inner-container">
+                        <div class="membership-line-one">Become a <br>My Modern Met Member</div>
+                        <div class="membership-line-two">As a member, you'll join us in our effort to support the arts.</div>
+                        <a href="https://mymodernmet.com/my-modern-met-membership" class="become-member-button">Become a Member</a><br>
+                        <a href="https://mymodernmet.com/my-modern-met-membership" class="explore-benefits-button black-text-red-arrow">Explore member benefits</a>
+                    </div>
+                </div>
+            
+                                </div><!-- end left column -->
+                <div class="col-xs-12 col-md-1"></div>
+
+                <!--Sidebar-->
+                <aside class="sidebar col-md-3">
+
+                    <div class="share-it-side">
+                                                    Want to learn more about art?                                                <br />
+                        <br />
+                        <a class="facebook-share-button" href="#share-on-facebook" onclick="window.open(
+                            'http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmymodernmet.com%2Felements-of-art-visual-culture%2F','facebook-share-dialog','width=626,height=436'
+                        ); return false;"><i class="fab fa-facebook-square"></i> Share</a>
+                    </div>
+
+                    <!-- Blog Ad 1 -->
+                    <div class="sidebar-ad ad-1 desktop-ad"></div>
+
+                    <div class="lets-connect">
+
+    <div class="title">Let's Connect</div>
+
+    <div class="social">
+        <a href="https://www.facebook.com/mymodernmet/" target="_blank" class="ss-icon ss-social ss-facebook"></a>
+        <a href="https://twitter.com/mymodernmet/" target="_blank" class="ss-icon ss-social ss-twitter"></a>
+        <a href="https://www.instagram.com/mymodernmet/" target="_blank" class="ss-icon ss-social ss-instagram"></a>
+    </div>
+
+    <p>Receive our <a href="https://mymodernmet.com/newsletter-signup/" target="_blank" rel="noopener">Weekly Newsletter</a>.<br />
+We’re also on <a href="https://www.pinterest.com/mymodernmet/" target="_blank" rel="noopener">Pinterest</a>, <a href="http://mymodernmet.tumblr.com/" target="_blank" rel="noopener">Tumblr</a>, and <a href="https://flipboard.com/@mymodernmet" target="_blank" rel="noopener">Flipboard</a>.</p>
+<p>Want to advertise with us? Visit <a href="https://mymodernmet.media/" target="_blank" rel="noopener">My Modern Met Media</a>.</p>
+
+</div>
+
+<div class="side-subscribe">
+
+	<div class="title">Get Our Weekly Newsletter</div>
+<!--	<div class="hidden">--><!--</div>-->
+
+    <div class="gform_wrapper sidebar-form-wrapper sidebar-form-wrapper-en">
+
+        <script async data-uid="6ca2e15d92" src="https://mymodernmet.ck.page/6ca2e15d92/index.js"></script>
+
+        
+    </div>
+
+</div>
+
+                    <!-- Blog Ad 2 -->
+                    <div class="sidebar-ad ad-2 desktop-ad"></div>
+
+                    
+<div class="popular-articles">
+
+    <div class="sidebar-shop-patreon-cta-container">
+
+        
+                
+        
+                        
+            <div class="visit-our-store-container" style="background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2018/02/featured-products-sidebar-background.jpg);">
+
+                <div class="sidebar-section-heading"><p>Visit Our Store</p>
+</div>
+
+                <div class="store-images">
+
+                    <a href="https://mymodernmet.store/products/cubebot-multicolored-wood" target="_blank" rel="nofollow noreferrer" title="Visit Our Store">
+                        <div class="image-container">
+                            <img src="https://mymodernmet.com/wp/wp-content/uploads/2020/05/David-Weeks-Cubebot-Multicolored-Wood.jpg" alt="Visit Our Store">
+                        </div>
+                        <div class="details">
+                            <div class="title">'Cubebot' Multicolored Wood</div>
+                            <div class="byline">by David Weeks</div>
+                            <div class="price">$9.00</div>
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="store-link">
+                    <a href="https://store.mymodernmet.com/" target="_blank" rel="nofollow noreferrer" class="btn btn-primary">Shop All Products</a>
+                </div>
+
+            </div>
+        
+                    <div class="cta-sidebar-video-container"></div>
+            <!--            <center><script type="text/javascript" language="javascript" src="https://live.sekindo.com/live/liveView.php?s=78511&cbuster=%%CACHEBUSTER%%&pubUrl=%%REFERRER_URL_ESC_ESC%%&vp_contentFeedId= AkKfOg1H&subId= 58acab12aa5ec91288e8b076"></script></center>-->
+        
+        <div class="memberful-sidebar-main">
+            <a href="https://mymodernmet.com/my-modern-met-membership">
+                <img src="/assets/img/theme/memberful-sidebar-background.jpg" alt="">
+
+                <div class="memberful-overlay-top">
+                    <div class="membership-line-one">Become a <br class="desktop-only">My Modern Met Member</div>
+                    <div class="membership-line-two">As a member, you'll join us in our effort to support the arts.</div>
+                </div>
+
+                <div class="memberful-overlay-bottom">
+                    <div class="become-member-button">Become a Member</div>
+                                            <div class="explore-benefits-button">Explore member benefits</div>
+                                    </div>
+
+            </a>
+        </div>
+
+    </div>
+
+</div>
+
+                    <!-- Blog Ad 3 -->
+                    <div class="sidebar-ad ad-3 desktop-ad"></div>
+
+                </aside>
+            </div>
+        
+    </section>
+
+
+<div class="mobile-newsletter-signup">
+    <section id="get-newsletter-mobile" class="newsletter blog-page ">
+        <div class="newsletter-form-container">
+
+            <h3>Get Our Weekly Newsletter</h3>
+
+            <script async data-uid="bfba6c140b" src="https://mymodernmet.ck.page/bfba6c140b/index.js"></script>
+
+        </div>
+    </section>
+</div>
+
+
+    <section class="featured-articles container related">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="blog-post-featured-products">
+                    
+<div class="featured-products-inner-container" style="background-image: url(https://mymodernmet.com/wp/wp-content/uploads/2018/02/featured-products-content-background-1024x364.jpg);">
+
+    <div class="container">
+        <div class="featured-products-header">
+            Featured Products            <a href="https://mymodernmet.store/" target="_blank" rel="nofollow noreferrer" class="btn btn-primary">Shop All Products</a>
+        </div>
+
+        <div class="featured-products-container">
+
+            
+                <div class="featured-product-container">
+                    <a href="https://store.mymodernmet.com/products/bird-scarf" target="_blank" class="featured-product-inner-container">
+                        <div class="image-container">
+                            <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/07/Shovava-Vintage-Scarf.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="title">Vintage-Inspired Bird Scarf</div>
+                            <div class="byline">by Shovava</div>
+                            <div class="price">$62.00</div>
+                        </div>
+                    </a>
+                </div>
+
+            
+                <div class="featured-product-container">
+                    <a href="https://mymodernmet.store/products/frida-kahlo-action-figure" target="_blank" class="featured-product-inner-container">
+                        <div class="image-container">
+                            <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/09/Frida-Kahlo.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="title">Frida Kahlo Action Figure</div>
+                            <div class="byline">by Today is Art Day</div>
+                            <div class="price">$29.99</div>
+                        </div>
+                    </a>
+                </div>
+
+            
+                <div class="featured-product-container">
+                    <a href="https://mymodernmet.store/products/big-wooden-cat-pile-game" target="_blank" class="featured-product-inner-container">
+                        <div class="image-container">
+                            <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/06/Cat-Pile-Big.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="title">Big Wooden Cat Pile Game</div>
+                            <div class="byline">by Comma</div>
+                            <div class="price">$39.95</div>
+                        </div>
+                    </a>
+                </div>
+
+            
+                <div class="featured-product-container">
+                    <a href="https://mymodernmet.store/products/viviva-colorsheets" target="_blank" class="featured-product-inner-container">
+                        <div class="image-container">
+                            <img src="https://mymodernmet.com/wp/wp-content/uploads/2020/05/Viviva-Watercolor-Sheets.jpg" alt="">
+                        </div>
+                        <div class="details">
+                            <div class="title">Viviva Colorsheets</div>
+                            <div class="byline">by Viviva Colorsheets</div>
+                            <div class="price">$19.95</div>
+                        </div>
+                    </a>
+                </div>
+
+            
+        </div>
+
+        <div class="featured-products-footer">
+            <a href="https://mymodernmet.store/" target="_blank" rel="nofollow noreferrer" class="btn btn-primary">Shop All Products</a>
+        </div>
+    </div>
+
+</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="recent-articles-title top-padded stretch-on-mobile bordered-mobile">Related Articles</h3>
+            </div>
+        </div>
+
+        <div class="row">
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/how-to-improve-your-handwriting/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/07/how-to-improve-your-handwriting-small-thumbnail-3.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/how-to-improve-your-handwriting/">5 Simple Tips for How To Improve Your Handwriting</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/how-to-improve-your-handwriting/" data-title="5 Simple Tips for How To Improve Your Handwriting"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/randa-haddadin-body-painting/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/09/randa-haddadin-body-painting-small-thumbnail-1.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/randa-haddadin-body-painting/">Artist Embellishes Her Own Thigh With Expressive Ink Drawings</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/randa-haddadin-body-painting/" data-title="Artist Embellishes Her Own Thigh With Expressive Ink Drawings"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/caravaggio-villa-aurora-mural/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/caravaggio-villa-aurora-mural-small-thumbnail-1.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/caravaggio-villa-aurora-mural/">World&#8217;s Only Carvaggio Mural Is Going on Auction for $547 Million</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/caravaggio-villa-aurora-mural/" data-title="World&#8217;s Only Carvaggio Mural Is Going on Auction for $547 Million"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/charis-tsevis-african-bricks-mosaic-portrait-art/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/charis-tsevis-african-bricks-mosaic-portrait-art-small.jpeg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/charis-tsevis-african-bricks-mosaic-portrait-art/">Artist Creates Stunning Mosaic Portraits Inspired by Colorful Patterns From African Culture</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/charis-tsevis-african-bricks-mosaic-portrait-art/" data-title="Artist Creates Stunning Mosaic Portraits Inspired by Colorful Patterns From African Culture"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/latinx-art-collective-interview/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/The-Latinx-Art-Collective-Small.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/latinx-art-collective-interview/">How One Woman Is Bringing Latinx Art Into Museums of Fine Arts [Interview]</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/latinx-art-collective-interview/" data-title="How One Woman Is Bringing Latinx Art Into Museums of Fine Arts [Interview]"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/crystal-ro-disney-mash-ups/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/crystal-ro-disney-mash-up-small-thumbnail-1.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/crystal-ro-disney-mash-ups/">Creative Portraits Merge Disney Characters With Their Real Voice Actors</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/crystal-ro-disney-mash-ups/" data-title="Creative Portraits Merge Disney Characters With Their Real Voice Actors"></div>
+            </div>
+        </div>
+    </div>
+                    </div>
+
+    </section>
+
+
+<div class="external-posts-container container">
+    <div class="row">
+        <div class="col-xs-12">
+
+            <h3 class="recent-articles-title top-padded bordered-mobile">Sponsored Content</h3>
+
+            <section id="outbrain-container"><div class="OUTBRAIN" data-widget-id= "TF_6" data-src = "" data-ob-template="MyModernMet" ></div></section>
+
+        </div>
+    </div>
+</div>
+
+<section class="header-ad desktop-ad"></section>
+
+
+    <section class="secondary-related-posts featured-articles container related">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="recent-articles-title bordered-mobile">More on My Modern Met</h3>
+            </div>
+        </div>
+
+        <div class="row">
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/ava-roth-mixed-media-honeycomb-art/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/ava-roth-mixed-media-honeycomb-art-small-thumbnail-1.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/ava-roth-mixed-media-honeycomb-art/">Artist Offers Her Work to Bees for an Unlikely Creative Collaboration With the Insects</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/ava-roth-mixed-media-honeycomb-art/" data-title="Artist Offers Her Work to Bees for an Unlikely Creative Collaboration With the Insects"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/klimt-vs-klimt-exhibition/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/klimt-vs-klimt-small.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/klimt-vs-klimt-exhibition/">This Online Exhibition Presents 63 Klimt Masterpieces, Including Paintings Lost in 1945 Fire</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/klimt-vs-klimt-exhibition/" data-title="This Online Exhibition Presents 63 Klimt Masterpieces, Including Paintings Lost in 1945 Fire"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/ian-berry-denim-legends/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/ian-berry-denim-legends-small.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/ian-berry-denim-legends/">Artist Hand-Makes Portraits of “Denim Legends” Entirely Out of Jeans</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/ian-berry-denim-legends/" data-title="Artist Hand-Makes Portraits of “Denim Legends” Entirely Out of Jeans"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/cat-art-show-2021/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/cat-art-show-small-thumbnail-1.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/cat-art-show-2021/">70 Artists Are Celebrating Fierce Felines With a ‘Cat Art Show’ in Los Angeles</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/cat-art-show-2021/" data-title="70 Artists Are Celebrating Fierce Felines With a ‘Cat Art Show’ in Los Angeles"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/win-art-book-deal-walter-foster/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/walterfoster-winabookdeal-square.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/win-art-book-deal-walter-foster/">Win a Book Deal With Walter Foster Publishing and Teach Others How to Create Art</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/win-art-book-deal-walter-foster/" data-title="Win a Book Deal With Walter Foster Publishing and Teach Others How to Create Art"></div>
+            </div>
+        </div>
+    </div>
+                                <div class="col-xs-6 col-sm-4 col-md-4 featured-col related-article-container">
+        <div class="featured-image">
+                            <a href="https://mymodernmet.com/british-museum-hokusai-exhibition-and-nft-sales/"><img src="https://mymodernmet.com/wp/wp-content/uploads/2021/10/hokusai-the-picture-book-of-everything-small-thumbnail-1.jpg"></a>
+                    </div>
+
+        <a href="https://mymodernmet.com/british-museum-hokusai-exhibition-and-nft-sales/">103 Unpublished Hokusai Drawings Featured in New Exhibit and 200 NFTs of His Works Will Be Sold</a>
+
+        <div class="row post-meta sharing">
+            <div class="col-xs-12 share-options">
+                <div class="facebook-share share"><div class="fb-share-button" data-href="" data-layout="button"></div></div>
+                <div class="addthis_native_toolbox" data-url="https://mymodernmet.com/british-museum-hokusai-exhibition-and-nft-sales/" data-title="103 Unpublished Hokusai Drawings Featured in New Exhibit and 200 NFTs of His Works Will Be Sold"></div>
+            </div>
+        </div>
+    </div>
+                    </div>
+
+    </section>
+
+
+
+	</main>
+
+    
+        <section id="get-newsletter" class="newsletter blog-page ">
+    <div class="newsletter-form-container">
+
+        <h3>Get Our Weekly Newsletter</h3>
+
+        <script async data-uid="bfba6c140b" src="https://mymodernmet.ck.page/bfba6c140b/index.js"></script>
+
+    </div>
+</section>
+
+        <section class="site-footer-top">
+            <div class="container">
+
+				<div class="row">
+                    <div class="col-sm-12 col-md-6 col-md-offset-3">
+                        <h3>My Modern Met</h3>
+                        <p><p>Celebrating creativity and promoting a positive culture by spotlighting the best sides of humanity—from the lighthearted and fun to the thought-provoking and enlightening.</p>
+</p>
+                    </div>
+                </div>
+
+                <div class="row links">
+                    <div class="col-xs-12">
+                        <div class="menu-footer-1-container"><ul id="menu-footer-1" class="menu"><li id="menu-item-11" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-11"><a href="https://mymodernmet.com/category/art/">Art</a></li>
+<li id="menu-item-12" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12"><a href="https://mymodernmet.com/category/design/">Design</a></li>
+<li id="menu-item-18" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18"><a href="https://mymodernmet.com/category/photography/">Photography</a></li>
+<li id="menu-item-43248" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-43248"><a href="https://mymodernmet.com/category/architecture/">Architecture</a></li>
+<li id="menu-item-13" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13"><a href="https://mymodernmet.com/category/diy/">DIY</a></li>
+<li id="menu-item-80047" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-80047"><a href="https://mymodernmet.com/category/career/">Career</a></li>
+<li id="menu-item-98603" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98603"><a href="https://mymodernmet.com/category/resources/">Resources</a></li>
+<li id="menu-item-98604" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98604"><a href="https://mymodernmet.com/category/classes/">Classes</a></li>
+<li id="menu-item-14" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-14"><a href="https://mymodernmet.com/category/environment/">Environment</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19"><a href="https://mymodernmet.com/category/science/">Science</a></li>
+<li id="menu-item-20" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-20"><a href="https://mymodernmet.com/category/technology/">Technology</a></li>
+<li id="menu-item-41618" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-41618"><a href="https://mymodernmet.com/category/travel/">Travel</a></li>
+<li id="menu-item-40103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40103"><a href="https://mymodernmet.store/">Store</a></li>
+</ul></div>                    </div>
+                </div>
+
+													<div class="row social-links">
+						<ul>
+							                                                                                                        <li>
+                                        <a class="facebook-share" href="https://www.facebook.com/mymodernmet/" target="_blank" rel="noreferrer nofollow" title="My Modern Met on Facebook">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+															                                                                                                        <li>
+                                        <a class="pinterest-share" href="https://www.pinterest.com/mymodernmet/" target="_blank" rel="noreferrer nofollow" title="My Modern Met on Pinterest">
+                                            <i class="fab fa-pinterest"></i>
+                                        </a>
+                                    </li>
+															                                                                                                        <li>
+                                        <a class="twitter-share" href="https://twitter.com/mymodernmet" target="_blank" rel="noreferrer nofollow" title="My Modern Met on Twitter">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+															                                                                                                        <li>
+                                        <a class="instagram-share" href="https://www.instagram.com/mymodernmet/" target="_blank" rel="noreferrer nofollow" title="My Modern Met on Instagram">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+															                                                                    <li class="flipboard">
+                                        <a class="flipboard-share" data-flip-widget="ico" href="https://flipboard.com/@mymodernmet?utm_campaign=tools&utm_medium=follow&action=follow">
+                                            <i class="fab fa-flipboard"></i>
+                                        </a><script src="https://cdn.flipboard.com/web/buttons/js/flbuttons.min.js" type="text/javascript"></script>
+                                    </li>
+															                                                                                                        <li>
+                                        <a class="tumblr-share" href="http://mymodernmet.tumblr.com/" target="_blank" rel="noreferrer nofollow" title="My Modern Met on Tumblr">
+                                            <i class="fab fa-tumblr"></i>
+                                        </a>
+                                    </li>
+															                                                                                                        <li>
+                                        <a class="youtube-share" href="https://www.youtube.com/c/MyModernMetVideos" target="_blank" rel="noreferrer nofollow" title="My Modern Met on YouTube">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+																					</ul>
+					</div>
+				
+            </div>
+        </section>
+
+    	<!--Footer-->
+        <footer class="site-footer-bottom " rel="contentinfo">
+            <div class="container">
+
+                <div class="row last-row ">
+                    <div class="col-sm-12 col-md-3 left">
+                        &copy; 2021. All rights reserved.                    </div>
+                    <div class="col-sm-12 col-md-6 middle">
+                        <div class="menu-footer-2-container"><ul id="menu-footer-3" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://mymodernmet.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53802"><a href="https://mymodernmet.com/team/">Team</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://mymodernmet.com/submit-content/">Submit Content</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80018"><a href="https://mymodernmet.com/contact/">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-138737"><a target="_blank" rel="noopener" href="https://mymodernmet.media/">Advertise</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80015"><a href="https://mymodernmet.com/affiliate-disclosure/">Affiliate Disclosure</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="https://mymodernmet.com/privacy-policy/">Privacy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41644"><a href="https://mymodernmet.com/terms-conditions/">Terms</a></li>
+</ul></div>                    </div>
+                    <div class="col-sm-12 col-md-3 right">
+                        Designed in collaboration with <a href="https://www.electricpulp.com" target="_blank" rel="noreferrer nofollow">Electric Pulp</a>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+
+    
+</div>
+
+<script src="/assets/js/main.js?id=d9eff83f55e8e64db6ca"></script>
+
+<script>var jquery_placeholder_url = 'https://mymodernmet.com/wp/wp-content/plugins/gravity-forms-placeholder-support-add-on/jquery.placeholder-1.0.1.js';</script><script type='text/javascript' id='google-invisible-recaptcha-js-before'>
+var renderInvisibleReCaptcha = function() {
+
+    for (var i = 0; i < document.forms.length; ++i) {
+        var form = document.forms[i];
+        var holder = form.querySelector('.inv-recaptcha-holder');
+
+        if (null === holder) continue;
+		holder.innerHTML = '';
+
+         (function(frm){
+			var cf7SubmitElm = frm.querySelector('.wpcf7-submit');
+            var holderId = grecaptcha.render(holder,{
+                'sitekey': '6LcSw2kUAAAAAKBtMee2Hn42fk3gkI5fAXibGSM5', 'size': 'invisible', 'badge' : 'bottomright',
+                'callback' : function (recaptchaToken) {
+					if((null !== cf7SubmitElm) && (typeof jQuery != 'undefined')){jQuery(frm).submit();grecaptcha.reset(holderId);return;}
+					 HTMLFormElement.prototype.submit.call(frm);
+                },
+                'expired-callback' : function(){grecaptcha.reset(holderId);}
+            });
+
+			if(null !== cf7SubmitElm && (typeof jQuery != 'undefined') ){
+				jQuery(cf7SubmitElm).off('click').on('click', function(clickEvt){
+					clickEvt.preventDefault();
+					grecaptcha.execute(holderId);
+				});
+			}
+			else
+			{
+				frm.onsubmit = function (evt){evt.preventDefault();grecaptcha.execute(holderId);};
+			}
+
+
+        })(form);
+    }
+};
+</script>
+<script type='text/javascript' async defer src='https://www.google.com/recaptcha/api.js?onload=renderInvisibleReCaptcha&#038;render=explicit' id='google-invisible-recaptcha-js'></script>
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.8.1' async='async' id='remote_sdk-js'></script>
+<script type='text/javascript' src='https://mymodernmet.com/wp/wp-content/plugins/gravity-forms-placeholder-support-add-on/gfplaceholderaddon.js?ver=1.0' id='gf_placeholder_add_on-js'></script>
+<script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://www.npttech.com/advertising.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var n=e.createElement("script");n.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(n)}else{var a=new Date;a.setTime(a.getTime()+3e5),e.cookie="__adblocker=true; expires="+a.toUTCString()+"; path=/"}},t.send()}}(document)}();
+</script><script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"f62e7759ab","applicationID":"182191796","transactionName":"YVEAYUdRWktRWkBQDlgbI1ZBWVtWH0pdVwZaUQ==","queueTime":0,"applicationTime":1257,"atts":"TRYDFw9LSUU=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
